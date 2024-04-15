@@ -1,0 +1,360 @@
+@font-face {
+  font-family: playfair;
+  src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.logo{
+    height: 130px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.top-bar-right{
+    padding-top: 30px;
+    float: right;
+    color: white;
+    font-size: 16px;
+}
+.white-text{
+  color: white;
+}
+.top-bar-right :hover{
+  color: rgb(244, 176, 4);
+}
+
+.top-bar-right :focus{
+  color: rgb(244, 176, 4);
+}
+
+.first{
+    background-image: url("images/bg-photo.jpeg");
+    background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+    background-position: center;  /* Optional: Controls image position */
+    background-size: cover;  
+}
+.top-part{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutus-container{
+  text-align: center;
+  width: auto;
+  margin-top: 500px;
+  padding-bottom: 30px;
+
+}
+
+
+.aboutus-text{
+  color: white;
+  font-size: 50px;
+  
+}
+
+
+.text-container{
+    display: flex;
+    align-items: baseline;
+   
+}
+.line {
+    width: 100%;  
+    height: 1px;  
+    border-top: 1px solid #ccc; 
+    
+  }
+  .solution{
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 200px;
+  }
+  .chevron-down-icon{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .story{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+  }
+  .believe{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+
+  }
+  .boat{
+    padding: 100px;
+  }
+  .cytravel-africa{
+    padding: 80px;
+    
+  }
+  .the-team{
+    text-align: center;
+  }
+  #tt{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #tt1{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .rp{
+    background-image: url("images/rp.jpeg");
+    background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+    background-position: center;  /* Optional: Controls image position */
+    background-size: cover;  
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+  }
+   .rp2{
+    background-image: url("images/rp1.jpeg");
+    background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+    background-position: center;  /* Optional: Controls image position */
+    background-size: cover;  
+    height: 200px;
+    width: 200px;
+    border-radius: 15%;
+    
+   }
+   #tteam{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 100px;
+    
+   }
+   #pcontent{
+    margin-top: 140px;
+   }
+
+   .wtwu{
+    background-color: rgb(218, 214, 214);
+   }
+   .wtwu-title{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+   }
+   .tot{
+    text-align: center;
+   }
+   .green-text{
+    color: green;
+    padding-left: 100px;
+
+   }
+
+  .chevron-down-icon :hover{
+    color: aquamarine;
+  }
+  .wtwu-list{
+    padding-bottom: 30px;
+  }
+  .tot{
+    background-image: url("images/safarii.jpeg");
+    background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
+    background-position: center;  /* Optional: Controls image position */
+    background-size: cover;  
+  }
+  .tot-text{
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .experience{
+    text-align: right;
+    font-size: 10px;
+    padding-right: 50px;
+  }
+  .years{
+    padding-left: 100px;
+    color: green;
+    font-size: 45px;
+  }
+  .about{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+  .ct{
+    padding-right: 100px;
+  }
+  .more{
+    color: green;
+    font-size: 14px;
+  }
+  
+
+  .expertise-text {
+    color: rgb(150, 149, 149);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 50px;
+  
+  }
+  #flex-container-1{
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 50px;
+  }
+  .bsa{
+    background-image: url("images/b-ground.png");
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-size: cover;  
+    color: white;
+    padding: 30px;
+    border-bottom: 20px solid green;
+}
+.ux-design{
+  padding: 30px;
+  border-bottom: 5px solid green
+}
+.mobile-apps{
+  padding: 30px;
+  border-bottom: 5px solid green
+}
+.mmc-africa-content, .elective-content{
+  color: white;
+}
+.elective{
+  padding: 30px;
+  color: white;
+  flex-grow: 1;
+  background-color: orange
+  
+  
+}
+.elective-logo{
+  height: 50px;
+}
+.mmc-africa{
+  background-image: url("images/mmc.jpeg");
+  background-repeat: no-repeat;  
+  background-position: center;  
+  background-size: cover;  
+  padding: 30px;
+  color: white;
+  flex-grow: 1;
+}
+
+#flex-container-2{
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 50px;
+
+}
+#customer-flex{
+  display: flex;
+  margin-left: 120px;
+  margin-right: 100px;
+  
+}
+
+.company-name{
+  color: grey;
+  font-size: 12px;
+}
+.cy-investment{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+.cytonn-investments{
+  background-image: url("images/laptop.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  padding-left: 20px;
+}
+.selected-work{
+  margin-bottom: 50px;
+}
+.lifestyle{
+  background-color: white;
+  padding: 20px;
+}
+#recent-blogs{
+  display: flex;
+  justify-content: space-evenly;
+}
+#recent-blogs{
+  margin-bottom: 50px;
+}
+#orb1{
+  background-color: green;
+  padding: 20px;
+  color: white;
+  margin-left: 20px;
+  flex-basis: 90%;
+
+}
+
+#orb2{
+  background-color: white;
+  padding: 20px;
+  color: green;
+  margin-left: 20px;
+  padding-right: 20px;
+  flex-basis: 90%;
+}
+#ready{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.test{
+  background-color: rgb(43, 43, 47);
+}
+#footer{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.column1{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#myTextbox{
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+}
+#myTextbox:focus {
+  background-color: rgb(188, 195, 195);
+}
+.line1 {
+  width: 100%;  
+  height: 1px;  
+  border-top: 1px solid #ccc; 
+  margin-left: 120px;
+  margin-right: 100px;
+  
+}
