@@ -1,6 +1,14 @@
 @font-face {
   font-family: playfair;
   src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  font-family: cantarelle;
+  src: url(fonts/Cantarell-Regular.ttf);
+  font-family: commissioner;
+  src: url(fonts/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf);
+  font-family: sans;
+  src: url(fonts/PTSans-Regular.ttf);
+  font-family: open-sans;
+  src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
 
 .logo{
@@ -13,16 +21,33 @@
     float: right;
     color: white;
     font-size: 16px;
+    font-weight: 500;
 }
 .white-text{
   color: white;
 }
 .top-bar-right :hover{
-  color: rgb(244, 176, 4);
+  color: rgb(244, 150, 51);
+}
+#plan{
+  background-color: rgb(244, 150, 51); 
+  margin-right: 60px; 
+  margin-top: 35px; 
+  height: min-content;
+  width: 120px;
+  color: white; 
+  font-size: 12px;
+  font-weight: 600; 
+  border-radius: 20px; 
+}
+#plan:hover{
+  background-color: rgba(4,92,80,255);
 }
 
 .top-bar-right :focus{
-  color: rgb(244, 176, 4);
+  color: rgb(244, 150, 51);
+  border-bottom: 2px solid rgb(244, 150, 51);
+  
 }
 
 .first{
@@ -30,7 +55,7 @@
     background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
     background-position: center;  /* Optional: Controls image position */
     background-size: cover;  
-    opacity: 0.8;
+   
 }
 .top-part{
     display: flex;
@@ -40,7 +65,7 @@
 .aboutus-container{
   text-align: center;
   width: auto;
-  margin-top: 500px;
+  margin-top: 200px;
   padding-bottom: 30px;
 
 }
@@ -79,19 +104,47 @@
   .story{
     text-align: center;
     margin-top: 50px;
-    font-size: 13px;
+    font-size: 11px;
+    letter-spacing: 3px;
     font-weight: bold;
-    color: gray;
+    font-family: open-sans;
+    color: rgb(97, 95, 95);
   }
   .believe{
     text-align: center;
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 20px;
+    
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-family: sans;
 
+  }
+  #cytext{
+    padding-top: 10px;
+  }
+  #mainStory{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+  }
+  .boatbg{
+    background-color:rgb(249, 199, 142);
+    width: 315px;
+    height: 100px;
+    padding: 100px;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 110px;
+    border-radius: 20px;
   }
   .boat{
     padding: 100px;
+    position: relative;
+  }
+  .boat img{
+    width: 1190px;
+    height: 220px;
+    border-radius: 30px;
+    padding-left: 10px;
   }
   .cytravel-africa{
     padding: 80px;
@@ -141,7 +194,9 @@
    }
 
    .wtwu{
-    background-color: rgb(218, 214, 214);
+    background-color: rgba(247,247,247,255);
+    padding-left: 300px;
+    padding-right: 300px;
    }
    .wtwu-title{
     padding: 30px;
@@ -152,9 +207,9 @@
     text-align: center;
    }
    .green-text{
-    color: green;
-    padding-left: 100px;
-
+    color: rgba(4,92,80,255);
+    padding-left: 10px;
+    font-weight: bold;
    }
 
   .chevron-down-icon :hover{
@@ -168,18 +223,19 @@
     background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
     background-position: center;  /* Optional: Controls image position */
     background-size: cover;  
-    opacity: 0.7;
+    
   }
   .tot-text{
     text-align: center;
-    padding: 50px;
+    padding-top: 120px;
     color: white;
-    font-size: 28px;
+    font-family: commissioner;
+    font-size: 18px;
     font-weight: bold;
   }
 
 #footer{
-  background-color: green;
+  background-color: rgba(4,92,80,255);
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -200,7 +256,7 @@
   border-top: 1px solid #ccc; 
 }
 #footer1{
-  background-color: green;
+  background-color: rgba(4,92,80,255);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -208,4 +264,13 @@
 #fa-icons{
   display: flex;
   justify-content: space-evenly;
+}
+#expert{
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+}
+#icon1{
+  padding-right: 10px;
+  color: rgba(4,92,80,255);
 }

@@ -1,30 +1,29 @@
-Playfair Display Variable Font
-==============================
+Commissioner Variable Font
+==========================
 
-This download contains Playfair Display as both variable fonts and static fonts.
+This download contains Commissioner as both a variable font and static fonts.
 
-Playfair Display is a variable font with this axis:
+Commissioner is a variable font with these axes:
+  FLAR
+  VOLM
+  slnt
   wght
 
-This means all the styles are contained in these files:
-  PlayfairDisplay-VariableFont_wght.ttf
-  PlayfairDisplay-Italic-VariableFont_wght.ttf
+This means all the styles are contained in a single file:
+  Commissioner/Commissioner-VariableFont_FLAR,VOLM,slnt,wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Playfair Display:
-  static/PlayfairDisplay-Regular.ttf
-  static/PlayfairDisplay-Medium.ttf
-  static/PlayfairDisplay-SemiBold.ttf
-  static/PlayfairDisplay-Bold.ttf
-  static/PlayfairDisplay-ExtraBold.ttf
-  static/PlayfairDisplay-Black.ttf
-  static/PlayfairDisplay-Italic.ttf
-  static/PlayfairDisplay-MediumItalic.ttf
-  static/PlayfairDisplay-SemiBoldItalic.ttf
-  static/PlayfairDisplay-BoldItalic.ttf
-  static/PlayfairDisplay-ExtraBoldItalic.ttf
-  static/PlayfairDisplay-BlackItalic.ttf
+in those cases you can use the static font files for Commissioner:
+  Commissioner/static/Commissioner-Thin.ttf
+  Commissioner/static/Commissioner-ExtraLight.ttf
+  Commissioner/static/Commissioner-Light.ttf
+  Commissioner/static/Commissioner-Regular.ttf
+  Commissioner/static/Commissioner-Medium.ttf
+  Commissioner/static/Commissioner-SemiBold.ttf
+  Commissioner/static/Commissioner-Bold.ttf
+  Commissioner/static/Commissioner-ExtraBold.ttf
+  Commissioner/static/Commissioner-Black.ttf
 
 Get started
 -----------
