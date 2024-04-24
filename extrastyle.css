@@ -154,9 +154,13 @@
     text-align: center;
   }
   #tt{
-    color: gray;
-    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 11px;
+    letter-spacing: 4px;
     font-weight: bold;
+    font-family: open-sans;
+    color: rgb(97, 95, 95);
   }
   #tt1{
     font-weight: bold;
