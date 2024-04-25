@@ -126,6 +126,10 @@
     padding-right: 100px;
     padding-top: 30px;
   }
+  #mainStory2{
+    padding-left: 180px;
+    padding-right: 180px;
+  }
   .boatbg{
     background-color:rgb(249, 199, 142);
     width: 315px;
@@ -165,23 +169,34 @@
   #tt1{
     font-weight: bold;
     font-size: 20px;
+    font-family: sans;
+    letter-spacing: 1px;
+  }
+  .culturalText{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
   }
   .rp{
     background-image: url("images/rp.jpeg");
     background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
     background-position: center;  /* Optional: Controls image position */
     background-size: cover;  
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 15%;
+  }
+  #padTeam{
+    padding-left: 50px;
+    padding-right: 50px;
   }
    .rp2{
     background-image: url("images/rp1.jpeg");
     background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
     background-position: center;  /* Optional: Controls image position */
     background-size: cover;  
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border-radius: 15%;
     
    }
@@ -192,9 +207,10 @@
     text-align: center;
     padding-bottom: 100px;
     
+    
    }
    #pcontent{
-    margin-top: 140px;
+    margin-top: 120px;
    }
 
    .wtwu{
@@ -259,12 +275,6 @@
   height: 1px;  
   border-top: 1px solid #ccc; 
 }
-#footer1{
-  background-color: rgba(4,92,80,255);
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
 #fa-icons{
   display: flex;
   justify-content: space-evenly;
@@ -277,4 +287,117 @@
 #icon1{
   padding-right: 10px;
   color: rgba(4,92,80,255);
+}
+.mainFooter{
+  background-color: rgb(11,92,80);
+}
+.downLogo{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#bottomLogo{
+  height: 130px;
+}
+.bottom-line{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+#address{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+#address-part{
+  padding-left: 100px;
+}
+#add-details{
+  color: white;
+  font-size: 14px;
+}
+#address1{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#footer-part{
+  display: flex;
+  justify-content: space-between;
+}
+#newsletter{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+#newsletter-text{
+  color: white;
+  font-size: 14px;
+}
+#email-part{
+  background-color: rgb(16,82, 73);
+  max-height: 50px;
+  border-radius: 25px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#email-part1{
+  background-color: rgb(16,82, 73);
+  max-height: 40px;
+  border: none;
+  width: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: white;
+  
+}
+#for-padding{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+#submit-but{
+  background-color: rgb(247, 173, 64);
+  border-radius: 25px;
+  width: 120px;
+  margin: 5px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+}
+#social-part{
+  padding-right: 100px;
+}
+#social{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+#icons-used{
+  display: flex;
+  justify-content: space-between;
+}
+#icon1{
+  color: white;
+  
+}
+.fa-brands{
+  margin-right: -5px;
+}
+.icon-div{
+  margin: 3px;
+  border: 1px solid white;
+  border-radius: 30px;
+  align-items: center;
+  padding:2px;
+  padding-left: 8px;
+}
+.we-accept{
+  padding-top: 30px;
 }
