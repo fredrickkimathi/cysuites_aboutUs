@@ -219,9 +219,12 @@
     padding-right: 300px;
    }
    .wtwu-title{
-    padding: 30px;
+   
+    padding-bottom: 10px;
+    padding-top: 50px;
     text-align: center;
     font-weight: bold;
+    font-size: 18px;
    }
    .tot{
     text-align: center;
