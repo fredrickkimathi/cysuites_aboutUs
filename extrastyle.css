@@ -6,7 +6,7 @@
   font-family: commissioner;
   src: url(fonts/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf);
   font-family: sans;
-  src: url(fonts/PTSans-Regular.ttf);
+  src: url(fonts/PTSansCaption-Regular.ttf);
   font-family: open-sans;
   src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
 }
@@ -30,7 +30,7 @@
   color: rgb(244, 150, 51);
 }
 #plan{
-  background-color: rgb(244, 150, 51); 
+  background-color: rgb(246, 151, 33); 
   margin-right: 60px; 
   margin-top: 35px; 
   height: min-content;
@@ -51,10 +51,11 @@
 }
 
 .first{
-    background-image: url("images/bg-photo.jpeg");
+    background-image: url("images/bg3.png");
     background-repeat: no-repeat;  /* Optional: Controls how the image repeats */
     background-position: center;  /* Optional: Controls image position */
-    background-size: cover;  
+    background-size: cover; 
+    opacity: 0.85; 
    
 }
 .top-part{
@@ -103,7 +104,7 @@
   }
   .story{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 11px;
     letter-spacing: 3px;
     font-weight: bold;
@@ -112,15 +113,13 @@
   }
   .believe{
     text-align: center;
-    
-    font-size: 25px;
+    font-size: 22px;
     padding-bottom: 10px;
     font-family: sans;
+    font-weight: bold;
 
   }
-  #cytext{
-    padding-top: 10px;
-  }
+ 
   #mainStory{
     padding-left: 100px;
     padding-right: 100px;
@@ -132,26 +131,34 @@
   }
   .boatbg{
     background-color:rgb(249, 199, 142);
-    width: 315px;
-    height: 100px;
-    padding: 100px;
+    width: 340px;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 60px;
     position: absolute;
     margin-left: 90px;
     margin-top: 110px;
     border-radius: 20px;
+  }
+  #cytext{
+    gap: 1px;
   }
   .boat{
     padding: 100px;
     position: relative;
   }
   .boat img{
-    width: 1190px;
-    height: 220px;
+    width: 1100px;
+    height: 180px;
     border-radius: 30px;
-    padding-left: 10px;
+    padding-left: 3px;
   }
   .cytravel-africa{
-    padding: 80px;
+    padding-top: 100px;
+    padding-right: 80px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(97, 95, 95);
     
   }
   .the-team{
@@ -159,7 +166,7 @@
   }
   #tt{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 11px;
     letter-spacing: 4px;
     font-weight: bold;
@@ -168,7 +175,7 @@
   }
   #tt1{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
     font-family: sans;
     letter-spacing: 1px;
   }
@@ -176,6 +183,7 @@
     text-align: center;
     padding-top: 20px;
     font-size: 14px;
+    color:rgb(97, 95, 95);
   }
   .rp{
     background-image: url("images/rp.jpeg");
@@ -210,7 +218,7 @@
     
    }
    #pcontent{
-    margin-top: 120px;
+    margin-top: 130px;
    }
 
    .wtwu{
@@ -234,6 +242,8 @@
     padding-left: 10px;
     font-weight: bold;
     font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 1px;
    }
 
   .chevron-down-icon :hover{
@@ -361,6 +371,12 @@
   color: white;
   
 }
+#email-part1::placeholder{
+  color: white;
+}
+#email-part1:focus{
+  border: none;
+}
 #for-padding{
   padding-left: 30px;
   padding-right: 30px;
@@ -386,15 +402,16 @@
 }
 #icons-used{
   display: flex;
-  justify-content: space-between;
+  gap: 1px;
 }
 #icon1{
   color: white;
   
 }
 .fa-brands{
-  padding-right: 5px;
+  margin-right: 4px;
 }
+
 .icon-div{
   margin: 3px;
   border: 1px solid white;
@@ -402,6 +419,7 @@
   align-items: center;
   padding:2px;
   padding-left: 8px;
+  font-size: 12px;
 }
 .we-accept{
   padding-top: 30px;
